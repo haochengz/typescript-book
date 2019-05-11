@@ -1,3 +1,6 @@
+
+# 原始数据类型
+
 在Javascript中的类型分为原始数据类型(Primitive data types)和对象类型(Object types)两种. 在Typescript中也是如此. 其中原始数据类型是指一些简单的类型. 包括了:
 
 * 布尔类型
