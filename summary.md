@@ -9,4 +9,5 @@
     * [类型推导](ch1/02-inference.md)
     * [联合类型](ch1/03-union.md)
     * [对象的类型 - 接口](ch1/04-interface.md)
+    * [数组的类型](ch1/05-array.md)
 
