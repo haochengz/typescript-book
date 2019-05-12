@@ -4,7 +4,9 @@
 * [简介](ch0/README.md)
     * [什么是Typescript](ch0/what.md)
 * [数据类型](ch1/README.md)
-    * [原始数据类型](ch1/primitive.md)
-    * [任意值类型](ch1/any.md)
-    * [类型推导](ch1/inference.md)
+    * [原始数据类型](ch1/00-primitive.md)
+    * [任意值类型](ch1/01-any.md)
+    * [类型推导](ch1/02-inference.md)
+    * [联合类型](ch1/03-union.md)
+    * [对象的类型 - 接口](ch1/04-interface.md)
 

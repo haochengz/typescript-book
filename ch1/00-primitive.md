@@ -3,17 +3,12 @@
 
 在Javascript中的类型分为原始数据类型(Primitive data types)和对象类型(Object types)两种. 在Typescript中也是如此. 其中原始数据类型是指一些简单的类型. 包括了:
 
-* 布尔类型
-
-* 数值类型
-
-* 字符串类型
-
-* null
-
-* undefined
-
-* Symbol (ES6标准新加入的类型)
+  * 布尔类型
+  * 数值类型
+  * 字符串类型
+  * null
+  * undefined
+  * Symbol (ES6标准新加入的类型)
 
 ## 布尔类型
 
@@ -69,8 +64,8 @@ let greeting: string = `Hi, this is ${name}. I'm ${age} years old.`;
 
 在Javascript中没有void, 但在Typescript中可以使用void做为函数的返回类型表示不返回任何值.
 
-```js
-function sayHello(name:string): void {
+```ts
+function sayHello(name: string): void {
   console.log(`Hello ${name}!`);
 }
 
@@ -79,8 +74,8 @@ sayHello('world');
 
 ## null 和 undefined
 
-null类型只有一个值即null, 如果一个变量的值为null, 该变量的值不是一个有效的对象, 数值, 字符串等. 处于向前兼容的原因, 使用`typeof null`将得到`object`. 因此null通常看做object类型的特殊值, 表示为空对象.
+null类型只有一个值即null, 如果一个变量的值为null, 该变量的值不是一个有效的对象, 数值或字符串等. 由于向前兼容的原因, 使用`typeof null`将得到`object`. 因此null通常看做object类型的特殊值, 表示为空对象.
 
-undefined类型也只有一个值即undefined. 用于表示未定义的数据, 定以后未赋值的数据和不存在的属性.
+undefined类型也只有一个值即undefined. 用于表示未定义的数据, 定义后未赋值的数据和不存在的属性.
 
 null和undefined是所有类型的子类型, 也就是这两个值可以赋值给任意类型的变量.
