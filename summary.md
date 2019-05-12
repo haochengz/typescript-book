@@ -11,4 +11,7 @@
     * [对象的类型 - 接口](ch1/04-interface.md)
     * [数组的类型](ch1/05-array.md)
     * [函数的类型](ch1/06-function.md)
+    * [类型断言](ch1/07-assertion.md)
+    * [声明文件](ch1/08-declare.md)
+    * [内置对象](ch1/built-in.md)
 
